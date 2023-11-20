@@ -22,5 +22,8 @@ RUN pnpm install
 # Copy the rest of the files
 COPY . .
 
+
+ENV NODE_ENV production
+
 # Start the application
 CMD ["pnpm", "start"]

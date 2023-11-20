@@ -12,7 +12,7 @@ import tagRoutes from './routes/tagRoutes.js';
 
 const CLIENT_URL =
   process.env.NODE_ENV === 'production'
-    ? 'https://instacv-prod-client.up.railway.app'
+    ? 'https://instacv.jamesjbustos.com'
     : 'http://localhost:5173';
 
 const corsOptions = {
